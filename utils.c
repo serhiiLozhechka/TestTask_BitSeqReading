@@ -15,6 +15,8 @@
  *                            0 = lowest significant bit in the Input. StartBit should support range 0 - 32767.
  * Input: int16_t i16BitLen specifies the number of bits that shall be read counting from the start bit. BitLen should support range 1 - 32767.
  * 
+ * Return: void
+ * 
  * TODO: set error code
  */
 void vGetBits(uint8_t * pu8Input, int16_t i16SizeOfInput, uint8_t * pu8Output, int16_t i16SizeOfOutput, int16_t i16StartBit, int16_t i16BitLen)
@@ -53,6 +55,8 @@ void vGetBits(uint8_t * pu8Input, int16_t i16SizeOfInput, uint8_t * pu8Output, i
  *
  * Input: uint8_t * pu8Data is pointer to input data
  * Input: int16_t i16SizeOfData is size of input data in bytes
+ * 
+ * Return: void
  *
  * TODO: set error code
  */ 
