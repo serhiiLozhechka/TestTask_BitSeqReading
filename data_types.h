@@ -3,4 +3,6 @@
 
 #include <stdint.h>
 
+//TODO: add typedef for data types that could potentioally change. 
+
 #endif

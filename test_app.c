@@ -9,6 +9,7 @@ Descripiton:
 * Input: UNSIGNED32 variable 0xFEDCBA98, StartBit = 18, BitLen = 12, Output: UNSIGNED8 array with two items. Expected Output value = {0xB7, 0x0F}
 * Input: UNSIGNED8 array with three items {0x98, 0xBA, 0xDC}, StartBit = 1, BitLen = 20, Output: UNSIGNED16 array with two items. Expected Output value = {0x5D4C, 0xE}.
 * 
+* TODO: use const for pointers
 * TODO: make test cases more generic
 */
 
